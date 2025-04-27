@@ -30,7 +30,7 @@ prompt:
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/AlexBarria/reasoning_agent.git
+    git clone https://github.com/you-username/reasoning_agent.git
     cd reasoning_agent
     ```
 2. Install Poetry if you don't already have it:
