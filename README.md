@@ -2,6 +2,25 @@
 ## Overview
 `reasoning_agent` is a project designed to test and evaluate various reasoning large language models (LLMs) to solve complex tasks. The goal is to explore the capabilities, limitations, and potential applications of these models in real-world scenarios.
 
+### OpenAI Model
+```markdown
+This project utilizes OpenAI's GPT models for reasoning tasks. These models are known for their advanced natural language understanding and generation capabilities, making them suitable for evaluating complex reasoning scenarios. In this particular case, the model `gpt-4o-2024-08-06` is being used.
+```
+
+### Wine Concentration Test
+One of the implemented test questions involves calculating the concentration of wine in a mixture after a series of transfers between two containers. This task is designed to assess the model's ability to handle mathematical reasoning and iterative problem-solving.
+
+prompt:
+
+        Calcula el contenido total de azúcar en un lote de vino a partir de los siguientes datos:
+        1. Volumen total del lote: 850 litros
+        2. Concentración promedio de azúcar residual: 4.5 gramos por litro
+        3. Se deben considerar pérdidas del 2% por evaporación durante el embotellado
+        4. Además, aplica un ajuste de +0.5 gramos por litro para corregir mediciones instrumentales
+
+        Razona paso por paso, genera los resultados parciales y luego suma para llegar al resultado total.
+
+
 ## Features
 - **Model Evaluation**: Compare the performance of different LLMs on reasoning tasks.
 - **Task Complexity**: Test models on tasks of varying complexity.
